@@ -3,6 +3,7 @@
     package="com.example.potapopweblium.initialproject.feature">
 
     <application>
+        <service android:name=".HelloService"/>
         <activity android:name=".MainActivity">
             <intent-filter android:order="1">
                 <action android:name="android.intent.action.VIEW" />
